@@ -15,6 +15,7 @@
 		C8C056692433BE3A0014975C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C056672433BE3A0014975C /* LaunchScreen.storyboard */; };
 		C8C056742433BE3A0014975C /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C056732433BE3A0014975C /* window_shopperTests.swift */; };
 		C8C0567F2433BE3A0014975C /* window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0567E2433BE3A0014975C /* window_shopperUITests.swift */; };
+		C8C0568F2433C1D30014975C /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0568E2433C1D30014975C /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C8C0567A2433BE3A0014975C /* window-shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "window-shopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C0567E2433BE3A0014975C /* window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITests.swift; sourceTree = "<group>"; };
 		C8C056802433BE3A0014975C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C0568E2433C1D30014975C /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		C8C0565B2433BE380014975C /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				C8C0568D2433C1A80014975C /* Views */,
+				C8C0568C2433BEE10014975C /* Controller */,
 				C8C0565C2433BE380014975C /* AppDelegate.swift */,
 				C8C0565E2433BE380014975C /* SceneDelegate.swift */,
-				C8C056602433BE380014975C /* ViewController.swift */,
 				C8C056622433BE380014975C /* Main.storyboard */,
 				C8C056652433BE3A0014975C /* Assets.xcassets */,
 				C8C056672433BE3A0014975C /* LaunchScreen.storyboard */,
@@ -126,6 +129,22 @@
 				C8C056802433BE3A0014975C /* Info.plist */,
 			);
 			path = "window-shopperUITests";
+			sourceTree = "<group>";
+		};
+		C8C0568C2433BEE10014975C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8C056602433BE380014975C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C8C0568D2433C1A80014975C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0568E2433C1D30014975C /* CurrencyTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			files = (
 				C8C056612433BE380014975C /* ViewController.swift in Sources */,
 				C8C0565D2433BE380014975C /* AppDelegate.swift in Sources */,
+				C8C0568F2433C1D30014975C /* CurrencyTextField.swift in Sources */,
 				C8C0565F2433BE380014975C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
